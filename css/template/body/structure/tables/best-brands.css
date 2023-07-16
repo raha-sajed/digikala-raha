@@ -1,0 +1,78 @@
+div.best-brands{
+    margin: 10px 0;
+}
+div.best-brands>div.slider3{
+    width: 1300px;
+    height: 225px;
+    background-color: white;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 16px;
+    border: 2px solid var(--gray);
+
+
+}
+div.best-brands>div.slider3>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    height: 118px;
+    
+}
+
+div.best-brands>div.slider3>div.swiper>div.swiper-wrapper{
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+div.best-brands>div.slider3>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    height: 118px;
+    width: 142px;
+    padding: 4px 16px;
+    border-right: 1px solid var(--menugray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.slider3 div.swiper div.swiper-button-next,div.slider3 div.swiper div.swiper-button-prev{
+    color: gray;
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    border: 1px solid gray;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   
+  }
+  div.slider3 div.swiper div.swiper-wrapper div.swiper-slide {
+    text-align: center;
+    width: 183px;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  div.slider3 div.swiper div.swiper-slide a img {
+    margin: 0 auto;
+    width: 110px;
+  }
+  div.best-brands{
+    width: 1304px;
+    height: 225px;
+    text-align: center;
+}
+div.slider3 div.head{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+div.slider3 div.head h3{
+    color: var(--black);
+    font-size: 17px;
+    font-family: yekanwb;
+    text-align: center;
+    line-height: 44px;
+}

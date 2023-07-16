@@ -1,0 +1,272 @@
+   div.amazing{
+    background-color: #ffffff;
+    width: 100%;
+    height: 550px;
+    margin: 0px auto;
+    display: inline-block;
+    text-align: center;
+
+    
+}
+div.amazing>div.amazing1{
+    margin: 10px auto;
+    height: 280px;
+    width: 1305px;
+    border-radius: 16px;
+    background-color: var(--red);
+    overflow: hidden;
+    font-size: 14px;
+    position: relative;
+
+}
+div.amazing>div.amazing2{
+    margin: 10px auto;
+    height: 110px;
+    width: 1305px;
+    border-radius: 16px;
+    background-color: #edf1f0;
+}
+div.amazing>div.amazing1>div.slider2{
+    width: 1300px;
+    height: 250px;
+    background-color: var(--red);
+    margin: 15px auto;
+    display: inline-block;
+    border-radius: 16px;
+    
+
+}
+.slider2 div.swiper {
+    width: 1300px;
+    height: 100%;
+    position: relative;
+  }
+  div.slider2 div.swiper div.swiper-button-next,div.slider2 div.swiper div.swiper-button-prev{
+    color: gray;
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    border: 1px solid gray;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   
+  }
+  div.slider2 div.swiper div.swiper-wrapper div.swiper-slide {
+    text-align: center;
+    width: 183px;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    
+  }
+  div.swiper a.s1{
+    height: 250px;
+    width: 184px;
+    background-color: var(--red);
+
+  }
+  div.slider2 div.swiper div.swiper-wrapper:nth-of-type(1){
+    background-color: var(--red);
+  }
+  div.slider2 div.swiper div.swiper-wrapper :nth-of-type(2){
+    border-radius: 0 10px 10px 0;
+    
+  }
+  div.slider2 div.swiper div.swiper-wrapper :nth-of-type(14){
+    border-radius: 10px 0 0 10px;
+  }
+  
+  div.slider2 div.swiper div.swiper-slide a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+  }
+  div.slider2 div.swiper div.swiper-slide a.s1 div img.amazing {
+    width: 92px;
+    height: 77px;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s1 div img.box {
+    width: 145px;
+    height: 115px;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s1 div span{
+    font-family: yekanwb;
+    color: white;
+    font-size: 15px;
+    margin: 7px;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s1 div i{
+    color: white;
+    font-size: 15px;
+  }
+  div.slider2 div.swiper div.swiper-slide a {
+    padding: 12px 16px;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 {
+    background-color: white;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div img {
+    width: 150px;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div div{
+    margin: 3px;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.discount{
+    display: inline-block;
+    padding: 0 3px;
+    background-color: var(--red);
+    border-radius: 10px;
+  } 
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.price{
+    display: inline-block;
+    background-color: white;
+    
+  } 
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.discount span{
+    font-family: yekanwb;
+    color: white;
+    font-size: 15px;
+    
+    
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.price span{
+    font-family: yekanwb;
+    color: var(--black);
+    background-color: white;
+    font-size: 15px;
+    
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.price :nth-of-type(2){
+    font-size: 10px;
+    padding: 0 3px;
+
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.realp{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(149, 148, 148);
+    font-size: 12px;
+    font-family: yekanwb;
+
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div div.realp del{
+    background-color: #fff;
+  }
+  div.slider2 div.swiper div.swiper-slide a.s2 div.all{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(5, 201, 201);
+    color: rgb(5, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.amazing2>a{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div.amazing2>a>div.right{
+    width: 470px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+  div.amazing2>a>div.right>div{
+    margin: 2px;
+  }
+  div.amazing2>a>div.right>div.s1>img{
+width: 66px;
+height: 62px;
+
+  }
+  div.amazing2>a>div.right>div.s2>img{
+    width: 250px;
+    height: 28px;
+    
+      }
+div.amazing2>a>div.right>div.s3>p{
+    background-color: #39ae01;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: yekanwb;
+          }
+div.amazing2>a>div.left{
+    
+    width: 640px;
+    height: 74px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.amazing2>a>div.left>div{
+    margin: 3px;
+    background-color: #ffffff;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: relative;
+    padding: 3px;
+}
+div.amazing2>a>div.left>div.s7{
+    margin: 5px;
+    background-color: #fff;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+}
+
+div.amazing2>a>div.left>div>span{
+    background-color: var(--red);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    padding: 3px 4px;
+    font-family: yekanwb;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+div.amazing2>a>div.left>div>img{
+    border-radius: 50%;
+    width: 68px;
+background-color: #fff;
+}
+div.amazing2>a>div.left>div.s7>span{
+    background-color: inherit;
+    color:#39ae01;
+    font-size: 14px;
+    padding: 3px 4px;
+    font-family: yekanwb;
+    border-radius:50px ;
+    
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    
+
+}
+div.amazing2>a>div.left>div.s7>span>i{
+    color:#39ae01;
+    font-size: 14px;
+    padding: 3px;
+
+}

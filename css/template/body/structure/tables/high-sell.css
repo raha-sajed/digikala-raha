@@ -1,0 +1,111 @@
+div.high-sell{
+    margin: 10px auto;
+}
+div.high-sell>div.slider4{
+    width: 1304px;
+    height: 405px;
+    background-color: white;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 16px;
+    border: 2px solid var(--gray);
+    padding: 16px 0;
+    
+
+
+}
+div.high-sell>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    width: 306px;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+div.high-sell>div.slider4>div.swiper>div.swiper-wrapper{
+    height: 298px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+div.high-sell>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    height: 86px;
+    width: 306px;
+    border-right: 1px solid var(--menugray);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.slider4 div.swiper div.swiper-button-next,div.slider4 div.swiper div.swiper-button-prev{
+    color: gray;
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    border: 1px solid gray;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   
+  }
+  div.slider4 div.swiper div.swiper-wrapper div.swiper-slide {
+    text-align: center;
+    width: 183px;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  div.slider4 div.swiper div.swiper-slide a img {
+    
+    width:86px;
+  }
+
+div.slider4 div.head{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+div.slider4 div.head h3{
+    color: var(--black);
+    font-size: 18px;
+    font-family: yekanwb;
+    text-align: center;
+    line-height: 44px;
+}
+div.slider4 div.head i{
+    color: rgb(255, 154, 71);
+    font-size: 20px;
+    padding: 10px;
+}
+div.slider4 div.swiper div.swiper-slide a span{
+    color: var(--blue);
+    font-size: 40px;
+    font-family: yekanwb;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 80px;
+    padding-left: 5px;
+
+}
+div.slider4 div.swiper div.swiper-slide a p{
+    width: 190px;
+    color: var(--black);
+    font-size: 13px;
+    font-family: yekanm;
+    text-align: right;
+    font-weight: bolder;
+    line-height: 30px;
+
+}
+div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a:nth-of-type(1),div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a:nth-of-type(2){
+    border-bottom : 1px solid var(--menugray);
+
+}

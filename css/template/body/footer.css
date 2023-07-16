@@ -1,0 +1,15 @@
+@import url(./footer/logo.css);
+@import url(./footer/namad.css);
+@import url(./footer/digis.css);
+footer{
+    background-color: #ffffff;
+    width: 1462px;
+    height: auto;
+    border-top: 1px solid var(--gray);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top:20px ;
+    margin: 0 auto;
+}

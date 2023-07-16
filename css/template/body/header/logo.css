@@ -1,0 +1,103 @@
+div.logo{
+    width: 100%;
+    height: 70px; 
+    background-color: white;
+}
+/* digi part*/
+div.logo>div.digi{
+    width: 10%;
+    height: inherit;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+div.logo>div.digi>svg{
+    margin-top:20px ;
+    
+}
+/*search part*/
+div.logo>div.search{
+        width: 70%;
+        height: inherit;
+        margin-right:-4px ;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+
+    }
+div.logo>div.search>input[type="text"]{
+        width: 55%;
+        height: 45px;
+     background-color: var(--silver);
+        margin-top: 12.5px;
+        border: unset;
+        outline: unset ;
+        font-family: yekanr;
+        padding-right: 10px;
+        margin-right: 10px;
+        color: var(--textgray);
+        font-size: 14px;
+        border-radius: 10px;
+        line-height: 45px;
+    }
+    div.logo>div.search>input[type="text"]::placeholder{
+        color: var(--textgray);
+        padding-right: 30px;
+        font-family: yekanr;
+        font-size: 13px;
+    }
+    div.logo>div.search>a>i.fa-magnifying-glass{
+        height: 30px;
+        color: var(--textgray);
+        position: absolute;
+        right: 20px;
+        top: calc(100% - 45px );
+    }
+    div.logo>div.login{
+        width: 19%;
+        height: inherit;
+        margin-right:-4px ;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+    
+    }
+    div.logo>div.login>a{
+        display: block;
+        font-family: yekanwb;
+        font-size: 12px;
+        padding: 10px 20px;
+        width: fit-content;
+        margin: 13px auto;
+        color: var(--black);
+        border: 1px solid var(--gray);
+        border-radius: 10px;
+        text-decoration:none;
+    }
+    div.logo>div.login>a>i.fa-arrow-right-to-bracket{
+        padding: 0 6px;
+        font-size: 18px;
+        color: var(--black);
+        rotate: 180deg;
+        position: relative;
+        top: 2px;
+        left: 10px;
+    }
+    div.logo>div.login>a>i.fa-cart-shopping{
+        position: absolute;
+        top: calc(90% - 70px / 2);
+        right: 250px;
+        font-size: 18px;
+
+
+    }
+    div.logo>div.login>a>span{
+        position: absolute;
+        top: calc(80% - 70px / 2);
+        right: 230px;
+        font-size: 25px;
+        color: var(--gray);
+
+    }
+    

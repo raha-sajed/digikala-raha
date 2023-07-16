@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+
+}
+html,body{
+    direction: rtl;
+    
+}
+@font-face {
+    font-family: sans;
+    src: url(../../fonts/OpenSans-Regular.eot);
+    src: url(../../fonts/OpenSans-Regular.ttf);
+    src: url(../../fonts/OpenSans-Regular.woff);
+    src: url(../../fonts/OpenSans-Regular.woff2);
+
+}
+@font-face {
+    font-family: yekanr;
+    src: url(../../fonts/yekan/IRANYekanWeb.eot);
+    src: url(../../fonts/yekan/IRANYekanWeb.ttf);
+    src: url(../../fonts/yekan/IRANYekanWeb.woff);
+    src: url(../../fonts/yekan/IRANYekanWeb.woff2);
+
+
+}
+@font-face {
+    font-family: yekanwb;
+    src: url(../../fonts/yekanb1/IRANYekanWeb-Bold.eot);
+    src: url(../../fonts/yekanb1/IRANYekanWeb-Bold.ttf);
+    src: url(../../fonts/yekanb1/IRANYekanWeb-Bold.woff);
+    src: url(../../fonts/yekanb1/IRANYekanWeb-Bold.woff2);
+
+}
+@font-face {
+    font-family: yekanm;
+    src: url(../../fonts/yekanm/IRANYekanWeb-Medium.eot);
+    src: url(../../fonts/yekanm/IRANYekanWeb-Medium.ttf);
+    src: url(../../fonts/yekanm/IRANYekanWeb-Medium.woff);
+    src: url(../../fonts/yekanm/IRANYekanWeb-Medium.woff2);
+
+}
+:root{
+    --silver: #f2f2f2;
+    --gray: #eee;
+    --red: #e6123d;
+    --darker-red: #b2001a;
+    --textgray: #62666d;
+    --black:#080a38;
+    --menugray:rgba(241,242,244);
+    --blue:rgb(35, 185, 211);
+}
+a{
+    text-decoration: none;
+}
+div.wrapper{
+    width: 1470px;
+    overflow: hidden;
+}
+
+
+

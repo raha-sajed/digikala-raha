@@ -1,0 +1,43 @@
+div.fslider1{
+  margin: 0 auto;
+}
+
+
+div.slider1{
+    
+  width: 1470px;
+  height: 400px;
+  margin: 0 auto;
+  
+}
+div.slider1 div.swiper {
+  width: 1470px;
+  height: 400px;
+  
+}
+
+div.slider1 div.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+div.slider1 div.swiper-slide a{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+div.slider1 div.swiper-slide a img{
+  height: 400px;
+  width: 1910px;
+}
+
+
+
+ 

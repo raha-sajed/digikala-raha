@@ -1,0 +1,116 @@
+div.contain{
+    width: 1304px;
+    height: 5000px;
+    margin-top: 30px;
+    display: flex;
+    
+    margin: 10px auto;
+    flex-wrap: wrap;
+    
+}
+div.contain>div.post{
+    width: 1304px;
+    height: 236px;
+    margin: 0 auto;
+
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+div.post>div>a>img{
+border-radius: 30px;
+width: 314px;
+}
+div.contain>div.post2{
+    width: inherit;
+    background-color: rgb(255, 255, 255);
+    height: 258px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top:10px ;
+}
+div.post2>div>a>img{
+    border-radius: 30px;
+    width: 645px;
+    }
+
+
+
+    /*post3*/
+div.post3{
+    width: 1304px;
+    height: 366px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+}
+div.post3>div.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.post3>div.head>h4{
+    color: var(--black);
+    font-size: 20px;
+    font-family: yekanm;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+}
+div.post3>div.head>p{
+    color: var(--blue);
+    font-size: 15px;
+    font-family: yekanm;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+}
+div.post3>div.head>p>i{
+    color: var(--blue);
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px;
+    padding: 2px;
+}
+div.post3>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.post3>div>div.s1{
+    width: 317px;
+    height: 278px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.post3>div>div.s1>a{
+    width: 317px;
+    height: 278px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid var(--gray);
+}
+div.post3>div>div.s1>a>img{
+    width: 315px;
+}
+div.post3>div>div.s1>a>p{
+    color: var(--black);
+    font-size: 15px;
+    font-family: yekanm;
+    text-align: justify;
+    line-height: 30px;
+    padding: 20px;
+
+}

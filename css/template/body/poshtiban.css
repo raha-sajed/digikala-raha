@@ -1,0 +1,113 @@
+div.poshtiban{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 100000;
+}
+div.poshtiban>input{
+    display: none;
+}
+div.poshtiban>label[for="que"]{
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background-color: var(--red);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+div.poshtiban>label[for="que"]>i{
+    font-size: 30px;
+}
+div.poshtiban>label[for="que-end"]{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    }
+    div.poshtiban>label[for="que-end"]>i{
+        font-size: 30px;
+    }
+div.poshtiban>div.chat{
+    background-color:var(--red);
+    width: 360px;
+    height: 50vh;
+    position: fixed;
+    right: calc(100% - 380px);
+    top: 30vh;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 300ms;
+    display: none;
+    z-index: 9998;
+}
+#que:checked ~ div.chat{
+    display: block;
+}
+#que:checked ~ label[for="que"]{
+    display: none;
+}
+#que:checked ~ label[for="que-end"]{
+    display: flex;
+}
+#que:checked ~ label[for="que"]{
+    display: none;
+}
+#que-end:checked ~ label[for="que"]{
+    display: flex;
+}
+#que-end:checked ~ div.chat{
+    display: none;
+}
+div.poshtiban>div.chat>div.head{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+div.poshtiban>div.chat>div.head>i{
+    font-size: 20px;
+font-weight: 500;
+}
+div.poshtiban>div.chat>div.head>h6{
+    color:var(--black);
+    font-size: 14px;
+    font-family: yekanr;
+    line-height: 30px;  
+    text-align: right;
+    margin: 8px;
+    
+}
+div.poshtiban>div.chat>div.body{
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+div.poshtiban>div.chat>div.body>h2>i{
+    color: var(--red);
+    padding: 10px;
+}
+div.poshtiban>div.chat>div.body>h2{
+    color:var(--black);
+    font-size: 20px;
+    font-family: yekanr;
+    line-height: 30px;  
+    text-align: right;
+    margin: 8px;
+}
+div.poshtiban>div.chat>div.body>p{
+    color:var(--black);
+    font-size: 14px;
+    font-family: yekanr;
+    line-height: 30px;  
+    text-align: right;
+    margin: 8px;
+}

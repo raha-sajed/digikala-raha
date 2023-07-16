@@ -1,0 +1,60 @@
+div.contain>div.dasteh-bandi{
+    width: 1304px;
+    height: 577px;
+background-color: rgb(255, 255, 255);
+margin: 10px auto;
+padding:16px 16px 40px;
+margin-top: 20px;
+
+}
+div.contain>div.dasteh-bandi>div.head{
+    height: 44px;
+    margin: 0 auto;
+
+}
+div.contain>div.dasteh-bandi>div.head>h3{
+    color: var(--black);
+    font-size: 17px;
+    font-family: yekanwb;
+    text-align: center;
+    line-height: 44px;
+    
+}
+div.contain>div.dasteh-bandi>div.items1{
+    width: 1272px;
+    height: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    direction: ltr;
+}
+div.contain>div.dasteh-bandi>div.items2{
+    width: 1272px;
+    height: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    direction: ltr;
+
+
+}
+div.contain>div.dasteh-bandi>div>div{
+    padding: 2px;
+
+}
+
+div.contain>div.dasteh-bandi>div>div>a>img{
+    width: 170px;
+    height: 170px;
+}
+div.contain>div.dasteh-bandi>div>div>a>p{
+    color: var(--black);
+    font-size: 12px;
+    font-family: yekanm;
+    text-align: center;
+    line-height: 30px;
+}
+
+
